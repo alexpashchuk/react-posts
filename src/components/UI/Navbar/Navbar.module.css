@@ -1,0 +1,17 @@
+.wrapper {
+    @apply h-20 w-full flex items-center justify-between gap-4 px-4 bg-blue-200;
+}
+
+.links {
+    @apply flex gap-4;
+}
+
+.link {
+    @apply border cursor-pointer rounded border-blue-500
+    inline-flex items-center justify-center
+    min-w-[4rem] min-h-[2rem]
+    outline-none pointer-events-auto my-1.5 py-1 px-1
+    text-center text-sm uppercase
+
+    hover:scale-105;
+}

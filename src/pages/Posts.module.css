@@ -1,0 +1,23 @@
+.wrapper {
+    @apply max-w-225 p-4;
+}
+
+.lastElement {
+    @apply opacity-0;
+}
+
+.postError {
+    @apply text-red-400 my-4;
+}
+
+.login {
+    @apply p-4;
+}
+
+.postId {
+    @apply p-4 border-2 rounded border-blue-700 m-4;
+}
+
+.postId > h1 {
+    @apply my-2;
+}

@@ -1,0 +1,9 @@
+.myBtn {
+    @apply border cursor-pointer rounded
+    inline-flex items-center justify-center
+    min-w-[6.5rem] min-h-[2rem]
+    outline-none pointer-events-auto my-1.5 py-1 px-1
+    text-center text-sm uppercase
+
+    hover:scale-105;
+}

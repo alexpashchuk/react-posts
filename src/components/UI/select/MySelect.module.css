@@ -1,0 +1,4 @@
+.mySelect {
+    @apply my-1 p-1 h-auto rounded max-w-sm min-w-[9.5rem] min-h-[1.5rem]
+    cursor-pointer text-sm border;
+}

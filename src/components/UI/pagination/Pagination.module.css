@@ -1,0 +1,14 @@
+.wrapper {
+    @apply flex flex-wrap mt-4;
+}
+
+.page {
+    @apply flex items-center justify-center mr-0.5
+    border border-blue-500 cursor-pointer rounded p-2 min-w-[1.5rem] min-h-[1rem] max-h-[2rem]
+    text-center text-base uppercase
+    hover:scale-105;
+}
+
+.pageCurrent {
+    @apply border-2 border-blue-500 font-semibold;
+}
